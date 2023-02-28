@@ -1,0 +1,13 @@
+import 'dart:math';
+import 'dart:io';
+
+void CircleArea() {
+  print("Enter the radius: ");
+  double r = double.parse(stdin.readLineSync()!);
+  double S = pi * r * r;
+  print("The area is: $S");
+}
+
+void main() {
+  CircleArea();
+}

@@ -1,0 +1,7 @@
+void printName() {
+  print("Toi ten la Nguyen Duy Chien.");
+}
+
+void main() {
+  printName();
+}
